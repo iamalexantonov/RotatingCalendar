@@ -33,6 +33,10 @@ struct Sheet: View {
             VStack {
                 Spacer()
                 VStack {
+                    Image("ryabina")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
                     Text("3")
                         .font(.largeTitle)
                         .foregroundColor(.red)
